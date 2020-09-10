@@ -18,7 +18,7 @@ grapl-config = {path="../grapl-config", version="*"}
 
 syn = "0.15.39"
 quote = "0.6.13"
-proc-macro2 = "0.4.30"
+proc-macro2 = "1.0.18"
 
 serde = "1.0.110"
 serde_json = "1.0.53"
