@@ -1138,7 +1138,7 @@ dependencies = [
  "lambda_runtime",
  "log 0.4.8",
  "prost",
- "rand 0.6.5",
+ "rand 0.7.3",
  "rusoto_core",
  "rusoto_credential",
  "rusoto_dynamodb",
