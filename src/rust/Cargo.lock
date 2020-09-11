@@ -47,7 +47,7 @@ dependencies = [
  "async-trait",
  "aws_lambda_events 0.2.7",
  "base16",
- "base64 0.10.1",
+ "base64 0.12.3",
  "bytes 0.5.5",
  "chrono",
  "dgraph-rs 0.1.2",
@@ -218,15 +218,6 @@ checksum = "489d6c0ed21b11d038c31b6ceccca973e65d73ba3bd8ecb9a2babf5546164643"
 dependencies = [
  "byteorder",
  "safemem",
-]
-
-[[package]]
-name = "base64"
-version = "0.10.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0b25d992356d2eb0ed82172f5248873db5560c4721f564b13cb5193bda5e668e"
-dependencies = [
- "byteorder",
 ]
 
 [[package]]
@@ -1097,7 +1088,7 @@ version = "0.1.9"
 dependencies = [
  "aws_lambda_events 0.3.0",
  "base16",
- "base64 0.9.3",
+ "base64 0.12.3",
  "chrono",
  "failure",
  "grapl-config",
@@ -1126,7 +1117,7 @@ dependencies = [
  "async-trait",
  "aws_lambda_events 0.2.7",
  "base16",
- "base64 0.10.1",
+ "base64 0.12.3",
  "chrono",
  "dgraph-rs 0.2.8",
  "failure",
@@ -1754,7 +1745,7 @@ version = "0.0.1"
 dependencies = [
  "async-trait",
  "aws_lambda_events 0.2.7",
- "base64 0.10.1",
+ "base64 0.12.3",
  "flate2",
  "grapl-config",
  "lambda_runtime",
@@ -1884,7 +1875,7 @@ dependencies = [
  "async-trait",
  "aws_lambda_events 0.2.7",
  "base58",
- "base64 0.9.3",
+ "base64 0.12.3",
  "bytes 0.5.5",
  "chrono",
  "failure",
